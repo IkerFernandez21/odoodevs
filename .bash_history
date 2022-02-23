@@ -29,3 +29,19 @@ git config --global user.name "IkerFernandez21"
 git commit -am 'primer commit'
 git push origin master
 exit
+cd /opt/odoo/odoo14-custom-addons/
+ls
+git branch beyondlist
+git branch
+checkout beyondlist
+git checkout beyondlist
+git branch
+git add .
+git commit -am 'commit con lista de tareas'
+git push origin beyondlist
+sudo su - postgres
+exit
+cd /opt/odoo/odoo14-custom-addons/lista_tareas/
+ls
+nano views
+exit

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from calendar import calendar
 from odoo import models, fields, api
 
 #Definimos el modelo de datos
@@ -16,6 +17,7 @@ class lista_tareas(models.Model):
     prioridad = fields.Integer()
     urgente = fields.Boolean(compute="_value_urgente", store=True)
     realizada = fields.Boolean()
+    calendario = fields.Date()
 
 
     #Este computo depende de la variable prioridad
