@@ -45,3 +45,20 @@ cd /opt/odoo/odoo14-custom-addons/lista_tareas/
 ls
 nano views
 exit
+cd / opt
+cd /opt
+cd odoo
+cd odoo14-custom-addons/
+cp lista_tareas/ /opt/odoo/odoo14-custom-addons/lista_tareasCalendar
+cp -r lista_tareas/ /opt/odoo/odoo14-custom-addons/lista_tareasCalendar
+ls
+cd lista_tareasCalendar/
+ls
+cd ..+
+cd ..
+clear
+POSTGRESQL
+postgresql
+postgres
+sudo su postgres
+exit

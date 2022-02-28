@@ -14,6 +14,7 @@
           <field name="realizada"/>
           <field name="calendario"/>
         </tree>
+       
       </field>
     </record>
 
